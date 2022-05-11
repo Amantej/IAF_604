@@ -1,0 +1,33 @@
+In this project, we are mostly doing the same work as we did in the assignment-1 but, instead of doing in Python, we are going to connect to Spark using Python (PySpark).
+
+Introduction
+One traditional way to handle Big Data is to use a distributed framework like Hadoop but these frameworks require a lot of read-write operations on a hard disk which makes it very expensive in terms of time and speed. Computational power is a significant hurdle.
+
+PySpark deals with this in an efficient and easy-to-understand manner. Therefore, I mostly encourage to use Spark than Hadoop.
+
+First Steps With PySpark and Big Data Processing (Links to an external site.)
+
+PySpark for Beginners – Take your First Steps into Big Data Analytics (with Code) (Links to an external site.)
+
+These links helps to understand the basics of PySpark programming applications.
+
+The goal of this project is to teach you the basic application of PySpark. In our Project 2, we will do model application of the Network Intrusion dataset.
+
+Instructions -
+CarWood.csv  Download CarWood.csvfile dataset is used for this project.
+
+Step 1: Setup the connections Java, Hadoop and Spark sessions. [hint: for these connections, go back to your spark exercise in the IAF Python class with Dr. Kopper.]
+
+Step 2: Read the file into spark. File is provided with header so, no need to worry about adding column names.
+
+Step 3: Do the basic necessary things to understand the dataset, such as datatypes, check null values, and statistical information.
+
+Step 4: In the previous assignment, most of you have no idea why we have to normalization and standardization the data (but these two comes under statistical information). Understand when we need to perform these things. Does the dataset require you to perform these two things?
+
+Step 5: There are some duplicate columns in this dataset, think how we can find which are duplicates (repeated). What are you going to do with those columns?
+
+Step 6: Count label values. Discuss whether the data is Imbalance, Inaccurate, and Incomplete data. Provide your discussion.
+
+Step 7: Dataset is not randomly shuffled so, randomly shuffle the dataset and divide the dataset into [70:30 or 75:25] test and train datasets.
+
+Step 8: Write a document about your results and output. Discuss Step 3, Step 4 and Step 6 results. Document should be clear with sub-headings and headings.
