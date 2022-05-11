@@ -13,7 +13,7 @@ These links helps to understand the basics of PySpark programming applications.
 
 The goal of this project is to teach you the basic application of PySpark. In our Project 2, we will do model application of the Network Intrusion dataset.
 
-Instructions
+Instructions -
 CarWood.csv  Download CarWood.csvfile dataset is used for this project.
 
 Step 1: Setup the connections Java, Hadoop and Spark sessions. [hint: for these connections, go back to your spark exercise in the IAF Python class with Dr. Kopper.]
